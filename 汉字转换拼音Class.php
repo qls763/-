@@ -103,6 +103,6 @@ class pin{
 //第二个参数留空则为gb1232编码
 //第二个参数随意设置则为utf-8编码
 $pin = new pin();
-echo $pin->Pinyin('周如俊','UTF8');
+echo $pin->Pinyin('你好','UTF8');
  
 ?>
